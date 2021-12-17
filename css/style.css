@@ -11,6 +11,18 @@ body {
 
 }
 
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
 .navbar-brand {
 	font-weight: 900;
 	text-transform: uppercase;
@@ -94,9 +106,20 @@ body {
 	color: #010101;
 }
 
-h3 {
-	font-weight: 300;
+.btn-success {
+	background-color: green;
+	border: 1px solid green;
+	color: white;
 }
+
+.btn-success:hover {
+	background-color: green;
+	border: 1px solid green;
+	color: #010101;
+}
+
+
+
 
 p {
 	font-weight: 300;
